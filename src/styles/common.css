@@ -1,0 +1,69 @@
+:root {
+  --textColor: #000;
+  --yellow: #EBD96B;
+  --gray: #7F7F7F;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--textColor);
+}
+
+.container {
+  max-width: 1780px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header_nav {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+}
+
+
+.header_nav ul {
+  display: flex;
+  column-gap: 65px;
+  align-items: center;
+}
+
+.header_nav a {
+  color: var(--textColor);
+}
+
+.header_nav_bt,
+a.header_nav_bt {
+  border-radius: 7px;
+  background-color: #000;
+  color: #fff;
+  padding: 13px 22px 17px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+}
+
+
+.title-2 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 1.04;
+  letter-spacing: 0.06em;
+}
+
+.title-2::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  bottom: 0px;
+  width: 190px;
+  height: 32px;
+  background-image: url('./../img/icons/decor-yellow.svg');
+  /* background-repeat: no-repeat; */
+}
